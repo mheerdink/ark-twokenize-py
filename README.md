@@ -35,3 +35,10 @@ clear in general which output was more desirable. For example:
 
     Python (port):
     Profit-Taking Hits Nikkei http://t.co/hVWpiDQ1 http://t.co/xJSPwE2z RT @WSJmarkets
+
+Usage
+-----
+    >>> import twokenize
+    >>> twokenize.tokenizeRawTweetText("lol ly x0x0,:D")
+    ['lol', 'ly', 'x0x0', ',', ':D']
+
