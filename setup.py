@@ -13,7 +13,7 @@ setup (
 		"Programming Language :: Python :: 3",
 		"Development Status :: 5 - Production/Stable",
 		"Intended Audience :: Developers",
-		"License :: OSI Approved :: GNU General Public License v2",
+		"License :: OSI Approved :: GNU General Public License v3",
 		"Environment :: Console"
 	],
 	long_description = """\
