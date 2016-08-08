@@ -42,3 +42,7 @@ Usage
     >>> twokenize.tokenizeRawTweetText("lol ly x0x0,:D")
     ['lol', 'ly', 'x0x0', ',', ':D']
 
+Installation
+------------
+
+    pip3 install git+https://github.com/Sentimentron/ark-twokenize-py
