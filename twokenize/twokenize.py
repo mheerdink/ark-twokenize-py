@@ -24,7 +24,7 @@ from __future__ import print_function
 
 import operator
 import re
-import html.parser as HTMLParser
+import html
 
 def regex_or(*items):
     return '(?:' + '|'.join(items) + ')'
@@ -285,7 +285,7 @@ def tokenize(text):
 # We also first unescape &amp;'s, in case the text has been buggily double-escaped.
 def normalizeTextForTagger(text):
     text = text.replace("&amp;", "&")
-    text = HTMLParser.HTMLParser().unescape(text)
+    text = html.unescape(text)
     return text
 
 # This is intended for raw tweet text -- we do some HTML entity unescaping before running the tagger.
